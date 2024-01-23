@@ -1,0 +1,7 @@
+services:
+  python-file:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - "/home/ubuntu/arya-cloud:/app/images"
